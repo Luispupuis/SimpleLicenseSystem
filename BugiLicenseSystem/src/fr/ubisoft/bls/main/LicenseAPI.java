@@ -43,6 +43,7 @@ public class LicenseAPI {
 	            }
 	        }
 		} catch (Exception ex) {
+			ex.printStackTrace();
 			return "error";
 		}
 	}
